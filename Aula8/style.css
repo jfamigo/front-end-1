@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: black;
+}
+head {
+    
+}
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: white;
+
+}
+
+.media-picture {
+
+    height: 400px;
+    background-image: url('https://3.bp.blogspot.com/-XmFCCaM7tI0/V-KwcNnCdLI/AAAAAAAABdQ/51Im-EEmQ2oMWOzURd9_fo3mX0vFGx3gQCLcB/s1600/Mr.%2BRobot.%2BElliot%2Bprimera%2Btemporada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color:white;
+       
+}
+
+.review-score {
+    
+    background-color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    
+
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+h2, a {
+    color: lightcoral;
+
+}
+
