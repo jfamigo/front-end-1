@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+header {
+    
+    box-sizing: border-box;
+    height: 60px;
+    background-image: url(fotoheader02.png);
+    background-size: auto;   
+    background-color: rgb(196, 249, 255);
+    padding-top: 20px;
+          
+}
+
+header h1 {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+
+.first-part {
+
+    background-image: url(pampulha.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+
+section div .lead {
+
+    color: white;
+    font-size: 36px;
+
+}
+
+.content-site {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.container p {
+
+    color: rgb(0, 0, 0);
+    text-indent: 30px;
+    text-align:justify;
+}
+
+.video{
+
+    text-align: center;
+    
+}
+
+
+.second-part{
+
+    background-image: url(pordosol.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+footer {
+
+    height: 70px ;
+    background-color: rgb(57, 57, 57);
+    color:white;
+    text-align: center;
+    
+}
+
+.insta{
+
+    position: absolute;
+    top: 2910px;
+    right: 30px;
+
+}
+
+.ytube{
+
+    position: absolute;
+    top: 2910px;
+    right: 120px;
+
+}
+
