@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 13 - Formulários</title>
+</head>
+<body>
+
+    <form>
+
+        <img src="marcabg.png" alt="">
+        <h1>Retira Fácil - Bon Goût</h1>
+        
+        <h2>Dados Pessoais</h2>
+        
+        <div>
+            <label for="fullName">Nome Completo</label>
+            <input required placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input required placeholder="" type="email" name="email" id="email">
+            
+        </div>
+        
+        <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="birthDate" id="birthDate">
+            
+        </div>
+        
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" maxLength="8" name="password" id="password">
+            
+        </div>
+        
+        <h2>Local de Retirada</h2>
+        
+        <div>
+            <label for="store">Local de retirada</label>
+            <select name="store" id="store">
+                <option value="">Selecionar</option>
+                <option value="">Unidade Sion</option>
+                <option value="">Unidade Mangabeiras</option>
+                <option value="">Unidade Cidade Nova</option>
+                <option value="">Unidade Caiçaras</option>
+                <option value="">Unidade Anchieta</option>
+            </select>
+
+        </div>
+        <br>                
+        <div>
+            <label for="info">Onde você ouviu falar da Bon Goût?</label>
+            <select name="info" id="info">
+                <option value="">Selecionar</option>
+                <option value="">Redes Sociais</option>
+                <option value="">Rádio e TV</option>
+                <option value="">Amigos</option>
+                <option value="">Não Conhecia</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="observation">Observações:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar formulário</button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Stick+No+Bills:wght@500&display=swap');
+
+
+body {
+    
+    background-image: url(background.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+form {
+
+    background-color: white;
+    text-align: center;
+    width:400px;
+    margin:0 auto;
+    padding: 15px;
+    border-radius: 5%;
+    
+}
+
+label {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input {
+
+    padding: 2px;
+    margin: 1px;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+}
+
+button {
+    
+    font-family: 'Roboto', sans-serif;
+
+}
