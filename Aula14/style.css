@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Stick+No+Bills:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    
+    background-image: url(/Aula14/Aula14/background2.jpg);
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+form {
+    
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 720px;
+    margin:0 auto;
+    padding: 10px;
+    
+    
+}
+
+div .products {
+
+    width: 300px;
+    height: 150px;
+    
+}
+
+label  {
+
+    font-weight: 700;
+}
+    
+textarea {
+
+    width: 320px;
+    height: 90px;
+}
+
+button {
+    
+    font-family: 'Roboto', sans-serif;
+
+}

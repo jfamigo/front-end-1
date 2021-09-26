@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 13 - Formulários</title>
+</head>
+<body>
+
+    <img src="marcabg.png" alt="">
+    <h1>Formulário de Pedidos</h1>
+
+    <form>
+    
+    <fieldset>
+        <legend>Donuts</legend>   
+        <div class="products">
+            <img class="products donuts" src="/Aula14/Aula14/products/donuts.jpg">
+            <br>
+            <div>
+                <input type="checkbox" name="homer" id="homer">
+                <label for="homer">Rosquinha do Homer</label>
+                <legend class="description">Donuts tradicional com glaçado rosa.</legend>
+                <legend class="price">R$ 10,90 /unidade</legend> 
+                <label for="donutsQuantity">Quantidade</label>
+                <select name="donutsQuantity" id="donutsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="donutNinho" id="donutNinho">
+                <label for="donutNinho">Leite Ninho com Nutella</label>
+                <legend class="description">Donuts tradicional com cobertura de brigadeiro de Ninho, farelo de Leite Ninho e Nutella pura.</legend>
+                <legend class="price">R$ 14,90 /unidade</legend> 
+                <label for="donutsQuantity">Quantidade</label>
+                <select name="donutsQuantity" id="donutsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="donutsRedFruits" id="donutsRedFruits">
+                <label for="donutsRedFruits">Frutas Vermelhas</label>
+                <legend class="description">Donuts tradicional com cobertura de calda de frutas vermelhas caseira com creme.</legend>
+                <legend class="price">R$ 10,90 /unidade</legend> 
+                <label for="donutsQuantity">Quantidade</label>
+                <select name="donutsQuantity" id="donutsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="vanillaCream" id="vanillaCream">
+                <label for="vanillaCream">Vanilla Cream</label>
+                <legend class="description">Donuts tradicional recheado com creme de baunilha com cobertura de chocolate com leite Ninho</legend>
+                <legend class="price">R$ 12,90 /unidade</legend> 
+                <label for="donutsQuantity">Quantidade</label>
+                <select name="donutsQuantity" id="donutsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="doceDeleite" id="doceDeleite">
+                <label for="doceDeleite">Doce de Leite</label>
+                <legend class="description">Donuts tradicional recheado de doce de leite Viçosa com cobertura de chocolate branco e mais doce de leite.</legend>
+                <legend class="price">R$ 10,90 /unidade</legend> 
+                <label for="donutsQuantity">Quantidade</label>
+                <select name="donutsQuantity" id="donutsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+        </div>
+
+   
+    </fieldset>
+
+    <fieldset>
+        <legend>Ovos de Páscoa</legend>   
+        <div class="eggs">
+            <img class="products easterEggs" src="/Aula14/Aula14/products/eastereggs.jpg">
+            <br>
+            <div>
+                <input type="checkbox" name="ninhoEgg" id="ninhoEgg">
+                <label for="ninhoEgg">Leite Ninho com Nutella</label>
+                <legend class="description">Ovo de Páscoa de chocolate ao leite recheado com brigadeiro de Leite Ninho com Nutella.</legend>
+                <legend class="price">R$ 59,90 /unidade</legend> 
+                <label for="eggsQuantity">Quantidade</label>
+                <select name="eggsQuantity" id="eggsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 unidade</option>
+                    <option value="2">2 unidades</option>
+                    <option value="3">3 unidades</option>
+                    
+                </select>
+                <hr>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="redVelvetEgg" id="redVelvetEgg">
+                <label for="redVelvetEgg">Red Velvet</label>
+                <legend class="description">Ovo de Páscoa com casca de chocolate branco, recheado com pedaços de bolo Red Velvet e brigadeiro de creamcheese.</legend>
+                <legend class="price">R$ 59,90 /unidade</legend> 
+                <label for="eggsQuantity">Quantidade</label>
+                <select name="eggsQuantity" id="eggsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="kinderBueno" id="kinderBueno">
+                <label for="kinderBueno">Kinder Bueno</label>
+                <legend class="description">Ovo de Páscoa com casca de chocolate ao leite, recheio de brigadeiro de chocolate branco e ao leite, com pedaços de Kinder Bueno.</legend>
+                <legend class="price">R$ 59,90 /unidade</legend> 
+                <label for="eggsQuantity">Quantidade</label>
+                <select name="eggsQuantity" id="eggsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="jackDaniels" id="jackDaniels">
+                <label for="jackDaniels">Meio Amargo com Jack Daniels</label>
+                <legend class="description">Ovo de Páscoa com casca de chocolate meio amargo e recheio de brigadeiro de chocolate meio amargo com Jack Daniels</legend>
+                <legend class="price">R$ 59,90 /unidade</legend> 
+                <label for="eggsQuantity">Quantidade</label>
+                <select name="eggsQuantity" id="eggsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="matilda" id="matilda">
+                <label for="matilda">Matilda</label>
+                <legend class="description">Ovo de Pascoa com casca de chocolate meio amargo, rechado com brigadeiro e bolo de chocolate e caramelo cremoso.</legend>
+                <legend class="price">R$ 59,90 /unidade</legend> 
+                <label for="eggsQuantity">Quantidade</label>
+                <select name="eggsQuantity" id="eggsQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+        </div>
+
+   
+    </fieldset>
+
+    <fieldset>
+        <legend>Macarons</legend>   
+        <div class="products">
+            <img class="products macarons" src="/Aula14/Aula14/products/macarrons.jpg">
+            <br>
+            <div>
+                <input type="checkbox" name="tradmac" id="tradmac">
+                <label for="tradmac">Tradicional</label>
+                <legend class="description"></legend>
+                <legend class="price">R$ 9,90 /unidade</legend> 
+                <label for="macQuantity">Quantidade</label>
+                <select name="macQuantity" id="macQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 unidade</option>
+                    <option value="2">2 unidades</option>
+                    <option value="3">3 unidades</option>
+                    <option value="4">4 unidades</option>
+                    <option value="5">5 unidades</option>
+                    
+                </select>
+                <hr>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="capimLimao" id="capimLimao">
+                <label for="capimLimao">Capim Limão</label>
+                <legend class="description"></legend>
+                <legend class="price">R$ 9,90 /unidade</legend> 
+                <label for="macQuantity">Quantidade</label>
+                <select name="macQuantity" id="macQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 unidade</option>
+                    <option value="2">2 unidades</option>
+                    <option value="3">3 unidades</option>
+                    <option value="4">4 unidades</option>
+                    <option value="5">5 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="passionFruitmac" id="passionFruitmac">
+                <label for="passionFruitmac">Maracujá</label>
+                <legend class="price">R$ 9,90 /unidade</legend> 
+                <label for="macQuantity">Quantidade</label>
+                <select name="macQuantity" id="macQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 unidade</option>
+                    <option value="2">2 unidades</option>
+                    <option value="3">3 unidades</option>
+                    <option value="4">4 unidades</option>
+                    <option value="5">5 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="chocolateMac" id="chocolateMac">
+                <label for="chocolateMac">Chocolate</label>
+                <legend class="price">R$ 9,90 /unidade</legend> 
+                <label for="macQuantity">Quantidade</label>
+                <select name="macQuantity" id="macQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 unidade</option>
+                    <option value="2">2 unidades</option>
+                    <option value="3">3 unidades</option>
+                    <option value="4">4 unidades</option>
+                    <option value="5">5 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="raspberryMac" id="raspberryMac">
+                <label for="raspberryMac">Framboesa</label>
+                <legend class="price">R$ 9,90 /unidade</legend> 
+                <label for="macQuantity">Quantidade</label>
+                <select name="macQuantity" id="macQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">Caixa com 1 unidade</option>
+                    <option value="2">Caixa com 2 unidades</option>
+                    <option value="3">Caixa com 4 unidades</option>
+                    <option value="4">Caixa com 6 unidades</option>
+                    <option value="5">Caixa com 10 unidades</option>
+                </select>
+                <hr>
+            </div>
+
+        </div>
+
+   
+    </fieldset>
+
+    <fieldset>
+        <legend>Bolos</legend>   
+        <div class="products">
+            <img class="products cakes" src="/Aula14/Aula14/products/cakes.jpg">
+            <br>
+            <div>
+                <input type="checkbox" name="cakeNinho" id="cakeNinho">
+                <label for="cakeNinho">Leite Ninho com Nutella</label>
+                <legend class="price">R$ 15,90 /pedaço</legend> 
+                <label for="cakesQuantity">Quantidade</label>
+                <select name="cakesQuantity" id="cakesQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 pedaço</option>
+                    <option value="2">2 pedaços</option>
+                    <option value="3">3 pedaços</option>
+                    
+                </select>
+                <hr>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="cakeRedVeltet" id="cakeRedVeltet">
+                <label for="cakeRedVeltet">Red Velvet</label>
+                <legend class="price">R$ 18,90 /pedaço</legend> 
+                <label for="cakesQuantity">Quantidade</label>
+                <select name="cakesQuantity" id="cakesQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 pedaço</option>
+                    <option value="2">2 pedaços</option>
+                    <option value="3">3 pedaços</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="cakeLemon" id="cakeLemon">
+                <label for="cakeLemon">Mousse de Limão</label>
+                <legend class="price">R$ 16,90 /unidade</legend> 
+                <label for="cakesQuantity">Quantidade</label>
+                <select name="cakesQuantity" id="cakesQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 pedaço</option>
+                    <option value="2">2 pedaços</option>
+                    <option value="3">3 pedaços</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="cakeDarkForest" id="cakeDarkForest">
+                <label for="cakeDarkForest">Floresta Negra</label>
+                <legend class="price">R$ 15,90 /unidade</legend> 
+                <label for="cakesQuantity">Quantidade</label>
+                <select name="cakesQuantity" id="cakesQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 pedaço</option>
+                    <option value="2">2 pedaços</option>
+                    <option value="3">3 pedaços</option>
+                </select>
+                <hr>
+            </div>
+
+            <div>
+                <input type="checkbox" name="cakeWhiteChocolate" id="cakeWhiteChocolate">
+                <label for="cakeWhiteChocolate">Chocolate Branco com Nozes</label>
+                <legend class="price">R$ 16,90 /unidade</legend> 
+                <label for="cakesQuantity">Quantidade</label>
+                <select name="cakesQuantity" id="cakesQuantity">
+                    <option value="">Selecionar</option>
+                    <option value="1">1 pedaço</option>
+                    <option value="2">2 pedaços</option>
+                    <option value="3">3 pedaços</option>
+                </select>
+                <hr>
+            </div>
+
+        </div>
+
+   
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Local de Retirada</legend>
+        
+        <div>
+            <label for="store">Local de retirada</label>
+            <select name="store" id="store">
+                <option value="">Selecionar</option>
+                <optgroup label="Centro-Sul">                
+                    <option value="1">Unidade Anchieta</option>
+                    <option value="2">Unidade Sion</option>
+                    <option value="3">Unidade Mangabeiras</option>
+                </optgroup>
+
+                <optgroup label="Zona Norte">
+                    <option value="1">Unidade Cidade Nova</option>
+                    <option value="2">Unidade Caiçaras</option>
+                </optgroup>
+
+            </select>
+
+        </div>
+                        
+            <div>
+            <label for="observation">Alguma observação?</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+        </div>
+
+    </fieldset>
+        <br>
+        <button type="submit">Enviar Pedido</button>
+        <button type="reset">Limpar pedido</button>
+
+    </form>
+    
+</body>
+</html>
