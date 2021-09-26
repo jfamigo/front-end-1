@@ -1,0 +1,108 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@keyframes shake {
+
+    0% {
+        background-color: salmon;
+                
+
+    }
+    100% {
+
+        background-color: purple;
+        
+    }
+
+}
+
+@keyframes slideNfadeUp {
+
+    0% {
+
+        transform: translateX(80px);
+        opacity: 0;
+
+    }
+    
+    100% {
+
+        transform: translateX(-80px);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes slideNturn {
+ 
+    0% {
+
+        transform: translateX(200px) rotate(360deg);
+                
+
+    }
+    
+    100% {
+
+        transform: translateX(-80px) rotate(-360deg);
+        
+
+    }
+    
+}
+
+.ball {
+
+    width: 150px;
+    height: 150px;
+    animation-name: slideNfadeUp;
+    border: none;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 50vh auto;
+    display: block;
+
+}
+
+.jake {
+
+    width: 150px;
+    height: 150px;
+    animation-name: slideNturn;
+    border: none;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 50vh auto;
+    display: block;
+
+}
+
+button {
+
+    border: none;
+    padding: 12px 42px;
+    transition: 2s;
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 50vh auto;
+    display: block;
+
+}
+
+button:hover {
+
+
+}

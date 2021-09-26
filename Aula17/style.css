@@ -1,0 +1,87 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@keyframes shake {
+
+    0% {
+        background-color: salmon;
+        transform: translateX(20px)
+        
+
+    }
+    100% {
+
+        background-color: purple;
+        transform: translateX(-20px)
+    }
+
+}
+
+
+button {
+
+    border: none;
+    padding: 12px 42px;
+    transition: 2s;
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 50vh auto;
+    display: block;
+
+
+    /* transition: */
+    /* transition-duration: 1s;
+    /* transition-property: padding; */
+    /* transition-delay: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    transition-timing-function: ease-out; */
+    /* ease-in suaviza o começo da animação, ease-out suaviza o final e ease-in-out suaviza tanto o começo quanto o final */
+    
+    /* transition: 2s .5s ease-in-out; ---> o primeiro é a duração da transição e o segundo é o tempo de delay e o terceiro é a suavização*/
+
+
+}
+
+button:hover {
+
+    /* background-color: aquamarine;
+    padding: 60px; */
+    
+    /* transform: rotate(360deg); */
+    /* transform: rotate(-360deg); ---> o negativo faz rotacionar sentido anti-horário*/
+    /* transform: scale(2); ----> dobra o tamanho da área do elemento, se colocar 0.5 diminui a area pela metade  */
+    /* transform: skew(20deg); ---> entorta o elemento em x° */
+    /* transform: translateX(12px); ---> pega o eixo X (horizontal) */
+
+    
+    /* transform: rotate(360deg) scale(2) skew(20deg) translateX(12px); ---> dá para colocar todos no translate     */
+
+}
+
+@keyframes fadeUp {
+    0% {
+    
+        opacity: 0;
+
+    }
+    100% {
+
+        opacity: 1;
+
+    }
+}
+
+p {
+
+    animation: fadeUp 2s;
+    
+}
